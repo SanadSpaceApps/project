@@ -619,7 +619,7 @@ figure {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    color: #61cc51 !important;
+    color: rgb(94, 94, 94) !important;
 }
 
 .tabulation input[type="password"] {
@@ -633,7 +633,7 @@ figure {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    color: #61cc51 !important;
+    color: rgb(94, 94, 94) !important;
 }
 
 .tabulation input[type="text"]::-webkit-input-placeholder {
@@ -648,17 +648,17 @@ figure {
 
 .tabulation input[type="text"]::-moz-placeholder {
     /* Firefox 19+ */
-    color: #61cc51 !important;
+    color: #A9A9A9 !important;
 }
 
 .tabulation input[type="text"]:-ms-input-placeholder {
     /* IE 10+ */
-    color: #61cc51 !important;
+    color: #A9A9A9 !important;
 }
 
 .tabulation input[type="text"]:-moz-placeholder {
     /* Firefox 18- */
-    color: #61cc51 !important;
+    color: #A9A9A9 !important;
 }
 
 @media screen and (max-width: 480px) {

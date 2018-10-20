@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> SANAD &mdash; Find a settlement</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A submission for NASA Space Apps challenge" />
+    <meta name="keywords" content="NASA, NASA Space Apps, SpaceApps, Space Apps, Housing, Sanctuary, Support" />
+    <meta name="author" content="NASA Space Apps" />
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="css/superfish.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <!-- CS Select -->
+    <link rel="stylesheet" href="css/cs-select.css">
+    <link rel="stylesheet" href="css/cs-skin-border.css">
+    <link rel="stylesheet" href="css/gaia.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div id="fh5co-wrapper">
+        <div id="fh5co-page">
+
+            <header id="fh5co-header-section" class="sticky-banner">
+                <div class="container">
+                    <div class="nav-header">
+                        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+                        <div id="fh5co-logo">
+                            <a href="index.html"><img src="images/logo.png" width="25%">
+                            </a>
+                        </div>
+                        <!-- START #fh5co-menu-wrap -->
+                        <nav id="fh5co-menu-wrap" role="navigation">
+                            <ul class="sf-menu" id="fh5co-primary-menu">
+                                <li><a href="/" class="active">Home</a></li>
+                                <li>
+                                    <a href="#" class="fh5co-sub-ddown">Sanctuary</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <li><a href="find-a-sanctuary">Find one</a></li>
+                                        <li><a href="offer-a-sanctuary">Offer one</a></li>
+                                        <li><a href="report-an-unsafe-place">report-an-unsafe-place</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blog">Blog</a></li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <!-- end:header-top -->
+            <!-- <div class="section section-header">
+                <div class="parallax filter filter-color-red">
+                    <div class="image" style="background-image: url('assets/img/header-1.jpeg')">
+                    </div> -->
+            <div class="fh5co-hero">
+                <!-- <div class="parallax filter filter-color-red">
+                    <div class="image" style="background-image: url('assets/img/header-1.jpeg')">
+                    </div>
+                </div> -->
+                <div class="fh5co-overlay"></div>
+                <div class="fh5co-cover" style="background-image: url(images/cover_bg_1.jpg);">
+                    <div class="desc">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-5 col-md-5">
+                                    <!-- <a href="index.html" id="main-logo">Travel</a> -->
+                                    <div class="tabulation animate-box">
+
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active">
+                                                <a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Login</a>
+                                            </li>
+                                            <li role="presentation">
+                                                <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Signup</a>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active" id="flights">
+                                                <div class="row">
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                        <div class="input-field">
+                                                            <label for="from">Name</label>
+                                                            <input type="text" class="form-control" placeholder="Your name" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                        <div class="input-field">
+                                                            <label for="from">Password</label>
+                                                            <input type="password" class="form-control" id="to-place" placeholder="Your password" />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xs-12">
+                                                        </br>
+                                                        <input type="submit" class="btn btn-primary btn-block" value="Login">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div role="tabpanel" class="tab-pane" id="hotels">
+                                                <div class="row">
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                        <div class="input-field">
+                                                            <label for="from">Name</label>
+                                                            <input type="text" class="form-control" id="from-place" placeholder="Your name" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                        <div class="input-field">
+                                                            <label for="from">Password</label>
+                                                            <input type="password" class="form-control" id="from-place" placeholder="Password" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-6 mt">
+                                                        <div class="input-field">
+                                                            <label for="from">Mobile</label>
+                                                            <input type="text" class="form-control" id="from-place" placeholder="966-xxxxxxxxx" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-6 mt alternate">
+                                                        <div class="input-field">
+                                                            <label for="date-end">Birth Date</label>
+                                                            <input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxs-12 col-xs-12 mt">
+                                                        <div class="input-field">
+                                                            <label for="from">City</label>
+                                                            <input type="text" class="form-control" id="from-place" placeholder="Your City" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <input type="submit" class="btn btn-primary btn-block" value="Sign up">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="desc2 animate-box">
+                                    <div class="col-sm-5 col-sm-push-1 col-md-5 col-md-push-1">
+                                        <h2>Report</h2>
+                                        <h3>Help people avoid unsafe places for settlement</h3>
+                                        <p><a class="btn btn-primary btn-lg" href="#">Submit a Report</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="fh5co-blog-section" class="fh5co-section-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+                            <h3>Our Service
+                            </h3>
+                            <p>We are here to help you find a safe place to settle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row row-bottom-padded-md">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-blog animate-box">
+                                <a href="#"><img class="img-responsive" src="images/place-1.jpg" alt=""></a>
+                                <div class="blog-text">
+                                    <div class="prod-title">
+                                        <h3><a href="#">Sumatra, Indonesia</a></h3>
+                                        <span class="posted_by"> Arab street etc </span>
+
+                                        <p>Two rooms to offer for people who has sufferd from the floods</p>
+                                        <p><a href="#">Learn More...</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-blog animate-box">
+                                <a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
+                                <div class="blog-text">
+                                    <div class="prod-title">
+                                        <h3><a href="#">Tokyo, Japan</a></h3>
+                                        <span class="posted_by">Outside the city near the mountain</span>
+
+                                        <p>I Have a small humble apartment in the upperwest side to offer for a family who has sufferd from the earthquake</p>
+                                        <p><a href="#">Learn More...</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="fh5co-blog animate-box">
+                                <a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
+                                <div class="blog-text">
+                                    <div class="prod-title">
+                                        <h3><a href="#">Manila, Philippine </a></h3>
+                                        <span class="posted_by">Location: Manila street near the park.</span>
+
+                                        <p>We have a shared room enough for 3 to offer to those who has sufferd from the floods.</p>
+                                        <p><a href="more-a1b2c3">Learn More...</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix visible-sm-block"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix visible-md-block"></div>
+    </div>
+
+    </div>
+    </div>
+    <!-- fh5co-blog-section -->
+    <div id="fh5co-testimonial" style="background-image:url(images/img_bg_1.jpg);">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>TWEETS</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-testimony animate-box">
+                        <blockquote>
+                            <span class="quote"><span><i class="fab fa-twitter"></i></i></span></span>
+                            <p>&ldquo; I had no home after the floods, greatful for those who offerd to have me in thier homes.&rdquo;</p>
+                        </blockquote>
+                        <p class="author">Danny Devito
+                            <a href="#" target="_blank"></a> <span class="subtext">USER</span></p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="box-testimony animate-box">
+                        <blockquote>
+                            <span class="quote"><span><i class="fab fa-twitter"></i></i></span></span>
+                            <p>&ldquo;i was scared to stay on the street after the earthquack but now i have a place to stay thanks to sanad&rdquo;</p>
+                        </blockquote>
+                        <p class="author">Emma
+                            <a href="#" target="_blank"></a> <span class="subtext">USER</span></p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4">
+                    <div class="box-testimony animate-box">
+                        <blockquote>
+                            <span class="quote"><span><i class="fab fa-twitter"></i></i></span></span>
+                            <p>&ldquo;My home was fallig apart after the earthquack, I found many places to live in using this website.&rdquo;</p>
+                        </blockquote>
+                        <p class="author">John Doe
+                            <a href="#"></a> <span class="subtext">USER</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="row row-bottom-padded-md">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <a href="">
+                                <img src="images/footer/logo.png" height="60px">
+                            </a>
+                        </div>
+                        <div class="col-md-4 text-center text-dark">
+                            <p class="fh5co-social-icons">
+                                <a href="twitter.com/sanadspaceapps"><i class="icon-twitter2"></i></a>
+                            </p>
+                            <div><a href="">TEAM PROFILE</a></div>
+
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p class="fh5co-social-icons">
+                                <a href="#">
+                                    <img src="images/footer/geeks.png" height="60px">
+                                </a>
+                                <a href="#">
+                                    <img src="images/footer/nama.png" height="60px">
+                                </a>
+                                <a href="#">
+                                    <img src="images/footer/spaceapps.jpg" height="60px">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/sticky.js"></script>
+
+    <!-- Stellar -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Superfish -->
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <!-- Date Picker -->
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <!-- CS Select -->
+    <script src="js/classie.js"></script>
+    <script src="js/selectFx.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
